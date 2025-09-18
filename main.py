@@ -20,4 +20,4 @@ def root():
 @app.get('/version')
 def version():
 
-    return {"msg": "Version 2 with a new feature"}
+    return {"msg": "Version 2 with a new feature and second bundle"}
